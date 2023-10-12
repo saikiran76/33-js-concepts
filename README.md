@@ -3,7 +3,7 @@
   <a href="https://github.com/leonardomso/33"><img src="https://i.imgur.com/dsHmk6H.jpg" alt="33 Concepts Every JS Developer Should Know" width=200" /></a>
   <br>
     <br>
-  33 Concepts Every JavaScript Developer Should Know
+  ప్రతి డెవలపర్ తెలుసుకోవలసిన 33 JavaScript భావనలు
   <br><br>
 </h1>
 
@@ -11,15 +11,15 @@
 
 <!-- [![Follow me](https://img.shields.io/twitter/follow/leonardomso.svg?style=for-the-badge)](https://twitter.com/leonardomso) -->
 
-## Introduction 
+## పరిచయం
 
-This repository was created with the intention of helping developers master their concepts in JavaScript. It is not a requirement, but a guide for future studies. It is based on an article written by Stephen Curtis and you can read it [here](https://medium.com/@stephenthecurt/33-fundamentals-every-javascript-developer-should-know-13dd720a90d1).
+J‌avaScriptలో డెవలపర్‌లు తమ భావనలను నేర్చుకోవడంలో సహాయపడే ఉద్దేశ్యంతో ఈ రిపోజిటరీ సృష్టించబడింది. ఇది అవసరం కాదు, భవిష్యత్తు అధ్యయనాలకు మార్గదర్శకం. ఇది స్టీఫెన్ కర్టిస్ రాసిన వ్యాసం ఆధారంగా రూపొందించబడింది మరియు మీరు దానిని [ఇక్కడ] చదవగలరు.https://medium.com/@stephenthecurt/33-fundamentals-every-javascript-developer-should-know-13dd720a90d1).
 
 **🚀 Considered by GitHub as one of the [top open source projects of 2018!](https://blog.github.com/2018-12-13-new-open-source-projects/)**
 
-## Community
+## సంఘం
 
-Feel free to submit a PR adding a link to your own recaps or reviews. If you want to translate the repo into your native language, please feel free to do so.
+మీ స్వంత రీక్యాప్‌లు లేదా సమీక్షలకు లింక్‌ను జోడించడం ద్వారా PRని సమర్పించడానికి సంకోచించకండి. మీరు రెపోను మీ స్థానిక భాషలోకి అనువదించాలనుకుంటే, దయచేసి సంకోచించకండి.
 
 All the translations for this repo will be listed below:
 
@@ -63,47 +63,47 @@ All the translations for this repo will be listed below:
 - [ગુજરાતી (Gujarati)](https://github.com/VatsalBhuva11/33-js-concepts) — Vatsal Bhuva
 - [سنڌي (Sindhi)](https://github.com/Sunny-unik/33-js-concepts) — Sunny Gandhwani
 - [भोजपुरी (Bhojpuri)](https://github.com/debnath003/33-js-concepts) — Pronay Debnath
+- [తెలుగు (Telugu)](https://github.com/saikiran76/33-js-concepts.git) - Korada Saikiran
 
 ---
 ## <img  align= center width=50px height=50px src="https://media4.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif?cid=6c09b952m4j3poopinf91rquev6qy4e8avu0bflq1e0vh4gp&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"> <a id="table-of-contents">Table of Contents</a>
 
-1. **[Call Stack](#1-call-stack)**
-2. **[Primitive Types](#2-primitive-types)**
-3. **[Value Types and Reference Types](#3-value-types-and-reference-types)**
-4. **[Implicit, Explicit, Nominal, Structuring and Duck Typing](#4-implicit-explicit-nominal-structuring-and-duck-typing)**
-5. **[== vs === vs typeof](#5--vs--vs-typeof)**
-6. **[Function Scope, Block Scope and Lexical Scope](#6-function-scope-block-scope-and-lexical-scope)**
-7. **[Expression vs Statement](#7-expression-vs-statement)**
-8. **[IIFE, Modules and Namespaces](#8-iife-modules-and-namespaces)**
-9. **[Message Queue and Event Loop](#9-message-queue-and-event-loop)**
-10. **[setTimeout, setInterval and requestAnimationFrame](#10-settimeout-setinterval-and-requestanimationframe)**
-11. **[JavaScript Engines](#11-javascript-engines)**
-12. **[Bitwise Operators, Type Arrays and Array Buffers](#12-bitwise-operators-type-arrays-and-array-buffers)**
-13. **[DOM and Layout Trees](#13-dom-and-layout-trees)**
-14. **[Factories and Classes](#14-factories-and-classes)**
-15. **[this, call, apply and bind](#15-this-call-apply-and-bind)**
-16. **[new, Constructor, instanceof and Instances](#16-new-constructor-instanceof-and-instances)**
-17. **[Prototype Inheritance and Prototype Chain](#17-prototype-inheritance-and-prototype-chain)**
-18. **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**
-19. **[map, reduce, filter](#19-map-reduce-filter)**
-20. **[Pure Functions, Side Effects, State Mutation and Event Propagation](#20-pure-functions-side-effects-state-mutation-and-event-propagation)**
-21. **[Closures](#21-closures)**
-22. **[High Order Functions](#22-high-order-functions)**
-23. **[Recursion](#23-recursion)**
-24. **[Collections and Generators](#24-collections-and-generators)**
-25. **[Promises](#25-promises)**
-26. **[async/await](#26-asyncawait)**
-27. **[Data Structures](#27-data-structures)**
-28. **[Expensive Operation and Big O Notation](#28-expensive-operation-and-big-o-notation)**
-29. **[Algorithms](#29-algorithms)**
-30. **[Inheritance, Polymorphism and Code Reuse](#30-inheritance-polymorphism-and-code-reuse)**
-31. **[Design Patterns](#31-design-patterns)**
-32. **[Partial Applications, Currying, Compose and Pipe](#32-partial-applications-currying-compose-and-pipe)**
-33. **[Clean Code](#33-clean-code)**
-
+1. **[కాల్ స్టాక్](#1-కాల్-స్టాక్)**
+2. **[ప్రిమిటివ్ రకాలు](#2-ప్రిమిటివ్-రకాలు)**
+3. **[విలువ రకాలు మరియు సూచన రకాలు](#3-విలువ-రకాలు-మరియు-సూచన-రకాలు)**
+4. **[అవ్యక్త, స్పష్టమైన, నామమాత్ర, నిర్మాణ మరియు డక్ టైపింగ్](#4-ఇంప్లిసిట్-స్పష్టమైన-నామమాత్ర-నిర్మాణం-మరియు-డక్-టైపింగ్)**
+5. **[== vs === vs రకం](#5--vs--vs-typeof)**
+6. **[ఫంక్షన్ స్కోప్, బ్లాక్ స్కోప్ మరియు లెక్సికల్ స్కోప్](#6-ఫంక్షన్-స్కోప్-బ్లాక్-స్కోప్-మరియు-లెక్సికల్-స్కోప్)**
+7. **[ఎక్స్‌ప్రెషన్ వర్సెస్ స్టేట్‌మెంట్](#7-ఎక్స్‌ప్రెషన్-వర్సెస్-స్టేట్‌మెంట్)**
+8. **[IIFE, మాడ్యూల్స్ మరియు నేమ్‌స్పేసులు](#8-iife-మాడ్యూల్స్-మరియు-నేమ్‌స్పేసులు)**
+9. **[మెసేజ్ క్యూ మరియు ఈవెంట్ లూప్](#9-మెసేజ్-క్యూ-అండ్-ఈవెంట్-లూప్)**
+10. **[సెట్‌టైమ్‌అవుట్, సెట్‌ఇంటర్‌వల్ మరియు రిక్వెస్ట్ యానిమేషన్ ఫ్రేమ్](#10-సెట్‌టైమ్‌అవుట్-సెటింటర్వల్-అండ్-రిక్వెస్టానిమేషన్ ఫ్రేమ్)**
+11. **[జావాస్క్రిప్ట్ ఇంజన్లు](#11-జావాస్క్రిప్ట్-ఇంజిన్లు)**
+12. **[బిట్‌వైస్ ఆపరేటర్‌లు, టైప్ అర్రేలు మరియు అర్రే బఫర్‌లు](#12-బిట్‌వైస్-ఆపరేటర్స్-టైప్-అరేలు-అండ్-అరే-బఫర్‌లు)**
+13. **[DOM మరియు లేఅవుట్ ట్రీలు](#13-dom-and-layout-trees)**
+14. **[ఫ్యాక్టరీలు మరియు తరగతులు](#14-ఫ్యాక్టరీలు-మరియు-తరగతులు)**
+15. **[ఇది, కాల్ చేయండి, దరఖాస్తు చేయండి మరియు బైండ్ చేయండి](#15-ఈ-కాల్-అప్లై-మరియు-బైండ్)**
+16. **[కొత్త, కన్స్ట్రక్టర్, ఇన్‌స్టాన్స్ ఆఫ్ మరియు ఇన్‌స్టాన్స్](#16-కొత్త-కన్‌స్ట్రక్టర్-ఇన్‌స్టాన్స్ ఆఫ్-అండ్-ఇన్‌స్టాన్స్)**
+17. **[ప్రోటోటైప్ ఇన్హెరిటెన్స్ మరియు ప్రోటోటైప్ చైన్](#17-ప్రోటోటైప్-ఇన్హెరిటెన్స్-అండ్-ప్రోటోటైప్-చైన్)**
+18. **[Object.create మరియు Object.assign](#18-objectcreate-and-objectassign)**
+19. **[మ్యాప్, తగ్గించు, ఫిల్టర్](#19-మ్యాప్-రిడ్యూస్-ఫిల్టర్)**
+20. **[స్వచ్ఛమైన విధులు, సైడ్ ఎఫెక్ట్స్, స్టేట్ మ్యుటేషన్ మరియు ఈవెంట్ ప్రచారం](#20-pure-functions-side-effects-state-mutation-and-event-propagation)**
+21. **[మూసివేతలు](#21-మూసివేతలు)**
+22. **[హై ఆర్డర్ ఫంక్షన్‌లు](#22-హై-ఆర్డర్-ఫంక్షన్‌లు)**
+23. **[రికర్షన్](#23-రికర్షన్)**
+24. **[సేకరణలు మరియు జనరేటర్లు](#24-సేకరణలు-మరియు-జనరేటర్లు)**
+25. **[వాగ్దానాలు](#25-వాగ్దానాలు)**
+26. **[అసింక్/వెయిట్](#26-అసిన్‌కావైట్)**
+27. **[డేటా స్ట్రక్చర్స్](#27-డేటా-స్ట్రక్చర్స్)**
+28. **[ఖరీదైన ఆపరేషన్ మరియు బిగ్ ఓ నొటేషన్](#28-ఖరీదైన ఆపరేషన్-మరియు-బిగ్-ఓ-నోటేషన్)**
+29. **[అల్గోరిథంలు](#29-అల్గోరిథంలు)**
+30. **[వారసత్వం, పాలిమార్ఫిజం మరియు కోడ్ పునర్వినియోగం](#30-వారసత్వ-పాలీమార్ఫిజం-మరియు-కోడ్-పునరుపయోగం)**
+31. **[డిజైన్ నమూనాలు](#31-డిజైన్-నమూనాలు)**
+32. **[పాక్షిక అప్లికేషన్‌లు, కర్రీయింగ్, కంపోజ్ మరియు పైప్](#32-పాక్షిక-అప్లికేషన్స్-కర్రీయింగ్-కంపోజ్-అండ్-పైప్)**
+33. **[క్లీన్ కోడ్](#33-క్లీన్-కోడ్)**
 ---
 
-## 1. Call Stack
+## 1. కాల్ స్టాక్
 
 ### Reference
 
@@ -111,53 +111,50 @@ All the translations for this repo will be listed below:
 
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
-- [Understanding Javascript Call Stack, Event Loops — Gaurav Pandvia](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)
-- [Understanding the JavaScript Call Stack — Charles Freeborn](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)
--  [Javascript: What Is The Execution Context? What Is The Call Stack? — Valentino Gagliardi](https://medium.com/@valentinog/javascript-what-is-the-execution-context-what-is-the-call-stack-bd23c78f10d1)
--  [What is the JS Event Loop and Call Stack? — Jess Telford](https://gist.github.com/jesstelford/9a35d20a2aa044df8bf241e00d7bc2d0)
--  [Understanding Execution Context and Execution Stack in Javascript — Sukhjinder Arora](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
--  [How JavaScript Works: An Overview of the Engine, the Runtime, and the Call Stack — Alexander Zlatkov](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
--  [How JavaScript Works Under The Hood: An Overview of JavaScript Engine, Heap and, Call Stack — Bipin Rajbhar](https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o)
+- 📖[జావాస్క్రిప్ట్ కాల్ స్టాక్, ఈవెంట్ లూప్స్ గురించి అర్థం - గౌరవ్ పండ్వియ](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)
+- 📖[JavaScript కాల్ స్టాక్ ను అర్థం చేసుకోవడానికి సమజం చేసుకోండి — Charles Freeborn](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)
+- 📖 [Javascript: ఎక్జిక్యూషన్ కంటెక్స్ట్ అంటే ఏమిటి? కాల్ స్టాక్ అంటే ఏమిటి? — Valentino Gagliardi](https://medium.com/@valentinog/javascript-what-is-the-execution-context-what-is-the-call-stack-bd23c78f10d1)
+- 📖 [JS ఈవెంట్ లూప్ మరియు కాల్ స్టాక్ అంటే ఏమిటి? — Jess Telford](https://gist.github.com/jesstelford/9a35d20a2aa044df8bf241e00d7bc2d0)
+- 📖 [JavaScript లో ఎక్జిక్యూషన్ కంటెక్స్ట్ మరియు ఎక్జిక్యూషన్ స్టాక్ ను అర్థం చేసుకోవడానికి సమజం చేసుకోండి — Sukhjinder Arora](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
+- 📖[JavaScript ఎంజిన్, రన్టైమ్, మరియు కాల్ స్టాక్ యొక్క సమాచారం — Alexander Zlatkov](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
+- 📖 [జావాస్క్రిప్ట్ ఎంజిన్, హీప్ మరియు కాల్ స్టాక్ యొక్క సమాచారం — Bipin Rajbhar](https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o)
 
 ### <img  align= center width=50px height=50px src="https://camo.githubusercontent.com/bbbcc076f47d621aeab7bc4a6d8b3cfa2e13b78bda9dd0dcd97c64ebe5b0b64c/68747470733a2f2f696d672e67656e69616c2e6c792f3566393136303830363461643939306336656531323233372f62643731393561332d613862622d343934622d386136642d6166343864643464656234622e6769663f67656e69616c2631363433353837323030303633"> Videos
 
-- [Javascript: the Call Stack explained — Coding Blocks India](https://www.youtube.com/watch?v=w6QGEiQceOM)
-- [The JS Call Stack Explained In 9 Minutes — Colt Steele](https://www.youtube.com/watch?v=W8AeMrVtFLY)
-- [What is the Call Stack? — Eric Traub](https://www.youtube.com/watch?v=w7QWQlkLY_s)
-- [The Call Stack — Kevin Drumm](https://www.youtube.com/watch?v=Q2sFmqvpBe0)
-- [Understanding JavaScript Execution — Codesmith](https://www.youtube.com/watch?v=Z6a1cLyq7Ac&list=PLWrQZnG8l0E4kd1T_nyuVoxQUaYEWFgcD)
-- [The Ultimate Guide to Execution Contexts, Hoisting, Scopes, and Closures in JavaScript — Tyler McGinnis](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
-- [What the heck is the event loop anyway? — Philip Roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-- [La PILA DE EJECUCIÓN (Call Stack) de JavaScript — La Cocina del Código](https://www.youtube.com/watch?v=ygA5U7Wgsg8)
-- [How JavaScript Code is executed? ❤️& Call Stack — Akshay Saini](https://www.youtube.com/watch?v=iLWTnMzWtj4&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
-- [Call Stacks - CS50](https://www.youtube.com/watch?v=aCPkszeKRa4)
-- [Learn the JavaScript Call Stack - codecupdev](https://www.youtube.com/watch?v=HXqXPGS96rw)
-- [JavaScript Functions and the Call Stack | How does the Call stack work - Chidre'sTechTutorials](https://www.youtube.com/watch?v=P6H-T4cUDR4)
-    
+- 🎥 [Javascript: కాల్ స్టాక్ ని వివరించిన వీడియో — Coding Blocks India](https://www.youtube.com/watch?v=w6QGEiQceOM)
+- 🎥 [JS కాల్ స్టాక్ ని 9 నిమిషాలులో వివరించిన వీడియో — Colt Steele](https://www.youtube.com/watch?v=W8AeMrVtFLY)
+- 🎥 [కాల్ స్టాక్ అంటే ఏమిటి? — Eric Traub](https://www.youtube.com/watch?v=w7QWQlkLY_s)
+- 🎥 [కాల్ స్టాక్ — Kevin Drumm](https://www.youtube.com/watch?v=Q2sFmqvpBe0)
+- 🎥 [JavaScript యాక్షన్ ను అర్థం చేసేందుకు మరియు కాల్ స్టాక్ ని అర్థం చేయుటకు మరియు పరిష్కరించేందుకు పూర్తి గైడ్ — Tyler McGinnis](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
+- 🎥 [ఇవెంట్ లూప్ అంటే ఏమిటి? — Philip Roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+- 🎥 [JavaScript యొక్క కాల్ స్టాక్ ని వివరించిన వీడియో — La Cocina del Código](https://www.youtube.com/watch?v=ygA5U7Wgsg8)
+- 🎥 [JavaScript కోడ్ ని ఎలా మార్చుకోవాలి? ❤️& కాల్ స్టాక్ — Akshay Saini](https://www.youtube.com/watch?v=iLWTnMzWtj4&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
+- 🎥 [కాల్ స్టాక్లు - CS50](https://www.youtube.com/watch?v=aCPkszeKRa4)
+- 🎥 [జావాస్క్రిప్ట్ కాల్ స్టాక్ నేర్చుకోవడం నేర్చుకోవడం నేర్చుకోవడం | కాల్ స్టాక్ ఎలా పని చేస్తుంది - Chidre'sTechTutorials](https://www.youtube.com/watch?v=P6H-T4cUDR4)
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
 
-## 2. Primitive Types
+## 2. ప్రాథమిక రకాలు
 
-### Reference
+### సందర్భం
 
--  [JavaScript data types and data structures — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values)
+-  [JavaScript డేటా రకాలు మరియు డేటా రచనలు - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values)
 
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
--  [Primitive and Non-primitive data-types in JavaScript - GeeksforGeeks](https://www.geeksforgeeks.org/primitive-and-non-primitive-data-types-in-javascript)
--  [Javascript variables (Beginner thinking)](https://robiul.dev/javascript-variables-beginner-thinking)
--  [How numbers are encoded in JavaScript — Dr. Axel Rauschmayer](http://2ality.com/2012/04/number-encoding.html)
--  [What You Need to Know About JavaScript Number Type — Max Wizard K](https://indepth.dev/posts/1139/here-is-what-you-need-to-know-about-javascripts-number-type)
--  [What Every JavaScript Developer Should Know About Floating Point Numbers — Chewxy](https://blog.chewxy.com/2014/02/24/what-every-javascript-developer-should-know-about-floating-point-numbers/)
--  [The Secret Life of JavaScript Primitives — Angus Croll](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
--  [Primitive Types — Flow](https://flow.org/en/docs/types/primitives/)
--  [(Not) Everything in JavaScript is an Object — Daniel Li](https://dev.to/d4nyll/not-everything-in-javascript-is-an-object)
--  [JavaScript data types and data structures — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values)
--  [Diving Deeper in JavaScripts Objects — Arfat Salman](https://blog.bitsrc.io/diving-deeper-in-javascripts-objects-318b1e13dc12)
--  [The differences between Object.freeze() vs Const in JavaScript — Bolaji Ayodeji](https://medium.com/@bolajiayodeji/the-differences-between-object-freeze-vs-const-in-javascript-4eacea534d7c)
--  [Object to primitive conversion — JavaScript.info](https://javascript.info/object-toprimitive)
+-  [JavaScriptలో ప్రాథమిక మరియు అన్య ప్రాథమిక డేటా రకాలు - GeeksforGeeks](https://www.geeksforgeeks.org/primitive-and-non-primitive-data-types-in-javascript)
+-  [Javascript వ్యారబుల్స్ (ప్రారంభక చింతన) - robiul.dev](https://robiul.dev/javascript-variables-beginner-thinking)
+-  [జావాస్క్రిప్ట్లో సంఖ్యలు ఎలా ఎన్కోడ్ చేయబడుతాయి - Dr. Axel Rauschmayer](http://2ality.com/2012/04/number-encoding.html)
+-  [జావాస్క్రిప్ట్ నంబర్ టైప్ గురించి మీకు తెలియాల్సినది ఇది ఏమిటి - Max Wizard K](https://indepth.dev/posts/1139/here-is-what-you-need-to-know-about-javascripts-number-type)
+-  ఫ్లోటింగ్ పాయింట్ సంఖ్యల గురించి ప్రతి జావాస్క్రిప్ట్ డెవలపర్ తెలుసుకోవాల్సినది - Chewxy](https://blog.chewxy.com/2014/02/24/what-every-javascript-developer-should-know-about-floating-point-numbers/)
+-  [ఫ్లోటింగ్ పాయింట్ సంఖ్యల గురించి ప్రతి జావాస్క్రిప్ట్ డెవలపర్ తెలుసుకోవాల్సినది - Chewxy](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
+-  [ప్రాథమిక రకాలు - Flow](https://flow.org/en/docs/types/primitives/)
+-  [(కాదు) జావాస్క్రిప్ట్లో అన్నింటినీ ఒబ్జెక్ట్ అంటారా? - Daniel Li](https://dev.to/d4nyll/not-everything-in-javascript-is-an-object)
+-  [జావాస్క్రిప్ట్ డేటా రకాలు మరియు డేటా రచనలు - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values)
+-  [జావాస్క్రిప్ట్ ఆబ్జెక్ట్లలో ఆకర్షణకరమైనది - Arfat Salman](https://blog.bitsrc.io/diving-deeper-in-javascripts-objects-318b1e13dc12)
+-  [జావాస్క్రిప్ట్లో Object.freeze() vs Const యొక్క వ్యత్యాసాలు - Bolaji Ayodeji](https://medium.com/@bolajiayodeji/the-differences-between-object-freeze-vs-const-in-javascript-4eacea534d7c)
+-  [ఆబ్జెక్ట్ ను ప్రాముఖ్యతనుస్తూ మార్చేందుకు - JavaScript.info](https://javascript.info/object-toprimitive)
 
 ### <img  align= center width=50px height=50px src="https://camo.githubusercontent.com/bbbcc076f47d621aeab7bc4a6d8b3cfa2e13b78bda9dd0dcd97c64ebe5b0b64c/68747470733a2f2f696d672e67656e69616c2e6c792f3566393136303830363461643939306336656531323233372f62643731393561332d613862622d343934622d386136642d6166343864643464656234622e6769663f67656e69616c2631363433353837323030303633"> Videos
 
@@ -174,21 +171,19 @@ All the translations for this repo will be listed below:
 
 ---
 
-## 3. Value Types and Reference Types
+## 3. విల్యూ ప్రకారాలు మరియు సూచన ప్రకారాలు
 
-### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
+### <img align=center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> వ్యాసాలు
 
--  [Explaining Value vs. Reference in Javascript — Arnav Aggarwal](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
--  [Primitive Types & Reference Types in JavaScript — Bran van der Meer](https://gist.github.com/branneman/7fb06d8a74d7e6d4cbcf75c50fec599c)
--  [Value Types, Reference Types and Scope in JavaScript — Ben Aston](https://medium.com/@benastontweet/lesson-1b-javascript-fundamentals-380f601ba851)
--  [Back to roots: JavaScript Value vs Reference — Miro Koczka](https://medium.com/dailyjs/back-to-roots-javascript-value-vs-reference-8fb69d587a18)
--  [Grasp “By Value” and “By Reference” in JavaScript — Léna Faure](https://hackernoon.com/grasp-by-value-and-by-reference-in-javascript-7ed75efa1293)
--  [JavaScript Reference and Copy Variables — Vítor Capretz](https://hackernoon.com/javascript-reference-and-copy-variables-b0103074fdf0)
--  [JavaScript Primitive vs Reference Values](http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/)
--  [JavaScript by Reference vs. by Value — nrabinowitz](https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value)
--  [JavaScript Interview Prep: Primitive vs. Reference Types — Mike Cronin](https://dev.to/mostlyfocusedmike/javascript-interview-prep-primitive-vs-reference-types-3o4f)
--  [JavaScript map vs. forEach: When to Use Each One - Sajal Soni](https://code.tutsplus.com/tutorials/javascript-map-vs-foreach-when-to-use-each-one--cms-38365)
-
+- [జావాస్క్రిప్ట్లో విల్యూ vs సూచన - అర్నవ్ అగ్రవాల్](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
+- [జావాస్క్రిప్ట్లో ఆధారభూత రకాలు & సూచన రకాలు - బ్రాన్ వాన్ డర్ మీర్](https://gist.github.com/branneman/7fb06d8a74d7e6d4cbcf75c50fec599c)
+- [విల్యూ ప్రకారాలు, సూచన ప్రకారాలు, మరియు స్కోపు - బెన్ అస్టన్](https://medium.com/@benastontweet/lesson-1b-javascript-fundamentals-380f601ba851)
+- [రూట్స్కికి తిరిగి: జావాస్క్రిప్ట్లో విల్యూ vs సూచన - మిరో కోచ్క](https://medium.com/dailyjs/back-to-roots-javascript-value-vs-reference-8fb69d587a18)
+- [జావాస్క్రిప్ట్లో "విల్యూ" మరియు "సూచన" అద్దూలు మరియు కాపీ చేసుకోండి - వీటర్ కాప్రెట్జ్](https://hackernoon.com/javascript-reference-and-copy-variables-b0103074fdf0)
+- [జావాస్క్రిప్ట్లో ప్రాధాన రకాలు vs. సూచన రకాలు](http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/)
+- [జావాస్క్రిప్ట్లో సూచన మరియు విల్యూమాలని ఎలా ఉపయోగించాలి - nrabinowitz](https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value)
+- [జావాస్క్రిప్ట్ ఇంటర్వ్యూ ప్రిప్: ప్రాధాన vs. సూచన రకాలు - మైక్ క్రోనిన్](https://dev.to/mostlyfocusedmike/javascript-interview-prep-primitive-vs-reference-types-3o4f)
+- [జావాస్క్రిప్ట్ మ్యాప్ vs. ఫోరీచ్: ఎలాంతవాళ్ళు ఎవరైనా ఉపయోగించాలంటే - సజల్ సోని](https://code.tutsplus.com/tutorials/javascript-map-vs-foreach-when-to-use-each-one--cms-38365)
 ### <img  align= center width=50px height=50px src="https://camo.githubusercontent.com/bbbcc076f47d621aeab7bc4a6d8b3cfa2e13b78bda9dd0dcd97c64ebe5b0b64c/68747470733a2f2f696d672e67656e69616c2e6c792f3566393136303830363461643939306336656531323233372f62643731393561332d613862622d343934622d386136642d6166343864643464656234622e6769663f67656e69616c2631363433353837323030303633"> Videos
 
 - [Javascript Pass by Value vs Pass by Reference — techsith](https://www.youtube.com/watch?v=E-dAnFdq8k8)
